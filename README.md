@@ -17,6 +17,8 @@ Use Python 3.10 ou superior com Tkinter. No Windows, a instalação padrão do P
 python jc_digital_demo.py
 ```
 
+Se aparecer um erro mencionando `init.tcl`, repare a instalação do Python com a opção **Tcl/Tk and IDLE** habilitada.
+
 O CSV usa ponto e vírgula como separador e UTF-8 com BOM. O relatório pode ser aberto no Excel.
 
 ## Como o código está organizado
