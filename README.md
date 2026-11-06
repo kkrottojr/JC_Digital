@@ -1,6 +1,18 @@
 # JC Digital
 
-Demonstração de portfólio de um aplicativo desktop para acompanhar carteiras, consultar registros e gerar relatórios. Os registros, nomes de carteiras e valores desta edição são fictícios. A demonstração funciona localmente com dados gerados pelo próprio programa.
+O **JC Digital é um orquestrador de réguas de acionamento**. Ele combina regras predefinidas com os retornos dos contatos, registrados nas tabulações, para determinar o próximo passo de cada registro.
+
+## Como a régua funciona
+
+1. As **regras** definem os critérios para acionar, aguardar ou encerrar uma etapa.
+2. As **tabulações** registram o resultado de cada tentativa de contato.
+3. Os **follows** definem a continuidade a partir desse resultado, como encaminhar o registro para uma nova tentativa ou aguardar o prazo previsto antes de seguir.
+
+Por exemplo, uma tentativa sem resposta pode gerar um novo contato após o intervalo definido na regra. Um contato concluído pode encerrar a sequência daquele registro.
+
+## Demonstração de portfólio
+
+A edição pública mostra a consulta de registros e a geração de relatórios com carteiras, status e valores fictícios. O motor de regras e follows, as integrações e as configurações operacionais ficam na versão de uso interno.
 
 ## O que você pode testar
 
